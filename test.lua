@@ -1,0 +1,7 @@
+local ref = test_ref()
+assert(ref)
+assert(ref.a == 1)
+assert(ref.b == 2)
+assert(ref.ref)
+assert(ref.ref.x == 3)
+assert(ref.ref.y == 4)

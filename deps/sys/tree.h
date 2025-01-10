@@ -27,7 +27,9 @@
 #ifndef	_SYS_TREE_H_
 #define	_SYS_TREE_H_
 
-#include <sys/_null.h>
+#ifndef NULL
+#define NULL 0L
+#endif
 
 /*
  * This file defines data structures for different types of trees:
